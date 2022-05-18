@@ -1,0 +1,29 @@
+{
+  "name": "crud-api",
+  "version": "1.0.0",
+  "description": "Simple API using basic operations.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoseAUM/CRUD-API.git"
+  },
+  "keywords": [
+    "Express",
+    "RestAPI",
+    "MongoDB"
+  ],
+  "author": "",
+  "license": "MIT",
+  "homepage": "https://github.com/JoseAUM/CRUD-API#readme",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongoose": "^6.3.3",
+    "nodemon": "^2.0.16"
+  }
+}
